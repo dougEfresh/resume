@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Richard Hendricks</title>
+<title>Douglas Chimento</title>
 <style>
 body {
     color: #000000;
@@ -10,7 +10,17 @@ body {
     line-height: 1.2;
     margin: 40px 0;
 }
-#resume {
+.resume {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 40px 60px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 2px 2px 4px #AAAAAA;
+    -webkit-box-shadow: 2px 2px 4px #AAAAAA;
+}
+
+#resume2 {
     margin: 0 auto;
     max-width: 800px;
     padding: 40px 60px;
@@ -75,14 +85,22 @@ h1 + ul + p {
         margin: 0;
         padding: 0;
         background: none;
+/*	
+	width: 21cm;
+        height: 29.7cm;
+*/
     }
-    #resume {
+    .resume {
         margin: 0;
         padding: 0;
         border: 0px;
         background: none;
         box-shadow: none;
         -webkit-box-shadow: none;
+	page-break-after: always;
+/*	width: 210mm;
+        height: 297mm;
+*/
     }
     /* Make links black in PDF */
     /* Move this outside the print block to apply this in HTML too */
@@ -104,7 +122,7 @@ h1 + ul + p {
         padding: 0;
         background: #FFFFFF !important;
     }
-    #resume {
+    .resume {
         margin: 0;
         padding: 1em;
         border: 0px;
@@ -114,63 +132,80 @@ h1 + ul + p {
     }
 }
 
+
 </style>
 </head>
 <body>
-<div id="resume">
-<!-- The (first) h1 will be used as the <title> of the HTML page -->
-<h1>Richard Hendricks</h1>
-<!-- The unordered list immediately after the h1 will be formatted on a single
-line. It is intended to be used for contact details -->
+<div class=resume><h1>Douglas Chimento</h1>
 <ul>
-<li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#114;&#105;&#99;&#104;&#97;&#114;&#100;&#46;&#104;&#101;&#110;&#100;&#114;&#105;&#107;&#115;&#64;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#114;&#105;&#99;&#104;&#97;&#114;&#100;&#46;&#104;&#101;&#110;&#100;&#114;&#105;&#107;&#115;&#64;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
-<li>(912) 555-4321</li>
-<li><a href="http://richardhendricks.example.com">richardhendricks.example.com</a></li>
-<li>San Francisco, CA</li>
+<li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#100;&#99;&#104;&#105;&#109;&#101;&#110;&#116;&#111;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#100;&#99;&#104;&#105;&#109;&#101;&#110;&#116;&#111;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
+<li><a href="http://github.com/dougEfresh">github.com/dougEfresh</a></li>
+<li>Tel Aviv</li>
+<li><a href="https://resume.dougchimento.com/resume.pdf">pdf</a> <a href="https://resume.dougchimento.com/">html</a></li>
 </ul>
-<!-- The paragraph after the h1 and ul and before the first h2 is optional. It
-is intended to be used for a short summary. -->
-<p>CEO and Software Engineer with knowledge of applied information theory,
-including optimizing lossless compression schema of both the length-limited and
-adaptive variants.</p>
 <h2>Experience</h2>
-<!-- You have to wrap the "left" and "right" half of these headings in spans by
-hand -->
-<h3><span>CEO/President, Pied Piper</span> <span>Dec 2013 &ndash; Dec 2014</span></h3>
-<p>Pied Piper is a multi-platform technology based on a proprietary universal
-compression algorithm that has consistently fielded high Weisman Scores™ that
-are not merely competitive, but approach the theoretical limit of lossless
-compression.</p>
+<h3>Senior Plarform Software Engineer, AppsFlyer Inc.<span>Jan 2020 &ndash; current</span></h3>
+<p>Automating AWS components to deploy applications via AWS API.</p>
 <ul>
-<li>Build an algorithm for artist to detect if their music was violating
-   copyright infringement laws</li>
-<li>Successfully won Techcrunch Disrupt</li>
-<li>Optimized an algorithm that holds the current world record for Weisman Scores</li>
+<li>Developer and infrastructure engineer of a dynamic staging environment. ~7,000 daily automated application deployments. (GO, Python, <a href="https://mesosphere.github.io/marathon/">Mesos</a>, <a href="http://consul.io">Consul</a>)</li>
+<li>From commit to docker: automate docker image creation across multiple languages, company wide. (Jenkins, Gitlab, Artifactory)</li>
+<li>Converted ~200 applications to AWS auto scaling groups to optimize SPOT capacity</li>
 </ul>
-<h3><span>Teacher, CoderDojo</span> <span>July 2013 &ndash; Dec 2013</span></h3>
-<p>Global movement of free coding clubs for young people.</p>
+<h3>Infrastructure Software Engineer, Outbrain Inc.</span>  <span>Oct 2016 &ndash; Dec 2019</span></h3>
+<p>Developer and maintainer of company wide frameworks: JAVA RPC <a href="https://github.com/outbrain/ob1k">framework</a>, metrics and tracing</p>
 <ul>
-<li>Awarded &lsquo;Teacher of the Month&rsquo;</li>
+<li>Design and implement cross platform distributed tracing with OpenTracing/<a href="https://www.jaegertracing.io/">Jaeger</a> handling thousands of requests per second</li>
+<li>AWS infrastructure/backend engineer supporting and maintaining a Spring JAVA web framework</li>
+</ul>
+<h3>Senior Software Engineer, Yodle (web.com)</span><span>Oct 2013 &ndash; Oct 2016</span></h3>
+<p>Develop and maintained real-time processing engine. </p>
+<ul>
+<li>Migrated ETL from SQL to Java/Spring framework</li>
+<li>Reduced load on database by moving slow SQL queries to AWS&rsquo;s Elastic MapReduce framework</li>
+<li>Wrote custom gradle plugin to show code coverage for testing</li>
+</ul>
+<h3>Senior Software Engineer, TryPlay Inc <span>Jan 2013 &ndash; Oct 2013</span></h3>
+<p>Back-end engineer maintaining a 24/7 music streaming site. </p>
+<ul>
+<li>Amazon AWS cloud engineer (VPC, EC2, RDS, Cloudfront, S3)</li>
+<li>Integrate 3rd-party REST APIs into TriPlay&rsquo;s web application (concerts, weather, artist biography, pricing of music)</li>
+<li>Wrote custom Java debugger using Java Platform Debugger Architecture (JPDA) API</li>
+</ul>
+<h3>Software Engineer, Lime Brokerage LLC<span>Jun 2009 &ndash; Jan 2013</span></h3>
+<p>Real-time reporting engineer for a high frequency trading platform.</p>
+<ul>
+<li>Constructed a data warehouse growing at ~5 billion orders per week</li>
+<li>Custom C++ application to parse binary data with regex support</li>
+<li>Developed Java API to store and access ~500,000 files across multiple machines</li>
 </ul>
 <h2>Projects</h2>
-<h3><span>Miss Direction</span> <span>Aug 2016</span></h3>
-<p>A mapping engine that misguides you:</p>
 <ul>
-<li>Won award at AIHacks 2016</li>
-<li>Built by all women team of newbie programmers</li>
-<li>Using modern technologies such as GoogleMaps, Chrome Extension and Javascript</li>
-</ul>
-<h2>Education</h2>
-<h3><span>University of Oklahoma, BA Information Technology</span> <span>2011 &ndash; 2014</span></h3>
-<ul>
-<li>GPA 4.0</li>
-<li>DB1101 - Basic SQL</li>
-<li>CS2011 - Java Introduction</li>
+<li>Honeypot <a href="https://github.com/dougEfresh/sshd-passwd-pot">OpenSSH</a> server </li>
+<li><a href="https://github.com/dougEfresh/logzio-go">logzio-go</a> library for <a href="http://logz.io">logz.io</a></li>
+<li>Arch Linux AUR <a href="https://aur.archlinux.org/packages/?O=0&amp;SeB=m&amp;K=dougefish&amp;outdated=&amp;SB=n&amp;SO=a&amp;PP=50&amp;do_Search=Go">packages</a></li>
+<li><a href="">Bitcoin</a>, Electrum, and LND node operator</li>
 </ul>
 <h2>Skills</h2>
 <ul>
-<li>Web development: HTML, CSS, JavaScript</li>
-<li>Compression: Mpeg, MP4, GIF</li>
-</ul></div>
-</body>
+<li>AWS, GO, Python, JAVA, SQL, All Things Linux</li>
+<li><a href="https://github.com/arendst/Tasmota">ESP8266</a> hackery (IoT firmware kinkering)</li>
+<li>Moutainer biker, skier and sometimes guitar player</li>
+</ul>
+<h2>Education</h2>
+<h3><span>St. Lawrence University, B.S. Mathematics</span> <span>1996 &ndash; 2000</span></h3>
+<hr /></div><div class=resume><h2>Experience (continued)</h2>
+<h3>Dispute Conultant &amp; Data Analyst, Deloitte<span>May 2007 &ndash; Jun 2009</span></h3>
+<p>Financial fraud and dispute investigator responding to court order deadlines.</p>
+<ul>
+<li>Based in Munich, Germany for 18 weeks for an international bribery case</li>
+<li>Developed MAPI toolkit to automate data parsing of Outlook PST files</li>
+<li>Designed and developed rules framework to detect money laundering</li>
+</ul>
+<h3>Technical Investigator, Fidelity Investments<span>May 2000 &ndash; May 2007</span></h3>
+<p>Detecting fraud and internal/external threats</p>
+<ul>
+<li>Built a fraud detection system with a custom plug-in rules framework</li>
+<li>Discovered unauthorized access to ~300 brokerage accounts with ~2 million in total assets</li>
+</ul>
+<!-- - Designed and implemented a data warehouse with ~10 terabytes--></div></body>
 </html>

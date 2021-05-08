@@ -5,7 +5,17 @@ body {
     line-height: 1.2;
     margin: 40px 0;
 }
-#resume {
+.resume {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 40px 60px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 2px 2px 4px #AAAAAA;
+    -webkit-box-shadow: 2px 2px 4px #AAAAAA;
+}
+
+#resume2 {
     margin: 0 auto;
     max-width: 800px;
     padding: 40px 60px;
@@ -70,14 +80,22 @@ h1 + ul + p {
         margin: 0;
         padding: 0;
         background: none;
+/*	
+	width: 21cm;
+        height: 29.7cm;
+*/
     }
-    #resume {
+    .resume {
         margin: 0;
         padding: 0;
         border: 0px;
         background: none;
         box-shadow: none;
         -webkit-box-shadow: none;
+	page-break-after: always;
+/*	width: 210mm;
+        height: 297mm;
+*/
     }
     /* Make links black in PDF */
     /* Move this outside the print block to apply this in HTML too */
@@ -99,7 +117,7 @@ h1 + ul + p {
         padding: 0;
         background: #FFFFFF !important;
     }
-    #resume {
+    .resume {
         margin: 0;
         padding: 1em;
         border: 0px;
@@ -108,3 +126,4 @@ h1 + ul + p {
         -webkit-box-shadow: none;
     }
 }
+

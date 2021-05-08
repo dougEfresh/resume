@@ -21,35 +21,12 @@ preamble = """\
 </style>
 </head>
 <body>
-<div id="resume">
 """
 
 postamble = """\
-</div>
 </body>
 </html>
 """
-
-CHROME_GUESSES_MACOS = (
-    "/Applications/Chromium.app/Contents/MacOS/Chromium",
-    "/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary",
-    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
-)
-
-# https://stackoverflow.com/a/40674915/409879
-CHROME_GUESSES_WINDOWS = (
-    # Windows 10
-    os.path.expandvars(r"%ProgramFiles(x86)%\Google\Chrome\Application\chrome.exe"),
-    os.path.expandvars(r"%ProgramFiles%\Google\Chrome\Application\chrome.exe"),
-    os.path.expandvars(r"%LocalAppData%\Google\Chrome\Application\chrome.exe"),
-    # Windows 7
-    r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
-    r"C:\Program Files\Google\Chrome\Application\chrome.exe",
-    # Vista
-    r"C:\Users\UserName\AppDataLocal\Google\Chrome",
-    # XP
-    r"C:\Documents and Settings\UserName\Local Settings\Application Data\Google\Chrome",
-)
 
 # https://unix.stackexchange.com/a/439956/20079
 CHROME_GUESSES_LINUX = [
@@ -70,12 +47,7 @@ CHROME_GUESSES_LINUX = [
 
 
 def guess_chrome_path() -> str:
-    if sys.platform == "darwin":
-        guesses = CHROME_GUESSES_MACOS
-    elif sys.platform == "win32":
-        guesses = CHROME_GUESSES_WINDOWS
-    else:
-        guesses = CHROME_GUESSES_LINUX
+    guesses = CHROME_GUESSES_LINUX
     for guess in guesses:
         if os.path.exists(guess):
             logging.info("Found Chrome or Chromium at " + guess)
@@ -83,18 +55,7 @@ def guess_chrome_path() -> str:
     raise ValueError("Could not find Chrome. Please set CHROME_PATH.")
 
 
-def title(md: str) -> str:
-    """
-    Return the contents of the first markdown heading in md, which we
-    assume to be the title of the document.
-    """
-    for line in md.splitlines():
-        if line[0] == "#":
-            return line.strip("#").strip()
-    raise ValueError("Cannot find any lines that look like markdown headings")
-
-
-def make_html(md: str, prefix: str = "resume") -> str:
+def make_html(page1: str , page2: str, prefix: str = "resume") -> str:
     """
     Compile md to HTML and prepend/append preamble/postamble.
 
@@ -108,8 +69,13 @@ def make_html(md: str, prefix: str = "resume") -> str:
         css = ""
     return "".join(
         (
-            preamble.format(title=title(md), css=css),
-            markdown.markdown(md, extensions=["smarty"]),
+            preamble.format(title='Douglas Chimento', css=css),
+            '<div class=resume>',
+            markdown.markdown(page1, extensions=["smarty"]),
+            '</div>',
+            '<div class=resume>',
+            markdown.markdown(page2, extensions=["smarty"]),
+            '</div>',
             postamble,
         )
     )
@@ -197,9 +163,13 @@ if __name__ == "__main__":
 
     prefix, _ = os.path.splitext(args.file)
 
-    with open(args.file) as mdfp:
-        md = mdfp.read()
-    html = make_html(md, prefix=prefix)
+    with open('page1.md') as mdfp:
+        p1 = mdfp.read()
+
+    with open('page2.md') as mdfp:
+        p2 = mdfp.read()
+
+    html = make_html(p1, p2, prefix=prefix)
 
     if not args.no_html:
         with open(prefix + ".html", "w") as htmlfp:
