@@ -36,8 +36,10 @@ preamble = """\
 """
 
 postamble = """\
+<div>
+<footer><p>shamelessly stolen and hacked-up from <a href=https://github.com/mikepqr/resume.md>https://github.com/mikepqr/resume.md</a></p></footer>
+</div>
 </body>
-<footer><p>shamelessly stolen and hacked-up from <a href=https://github.com/mikepqr/resume.md>https://github.com/mikepqr/resume.md</a></p> </footer>
 </html>
 """
 
