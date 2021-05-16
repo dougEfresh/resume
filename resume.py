@@ -11,9 +11,21 @@ import tempfile
 
 import markdown
 
+js = """
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QBNE6MM5KQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QBNE6MM5KQ');
+</script>
+"""
 preamble = """\
 <html lang="en">
 <head>
+{js}
 <meta charset="UTF-8">
 <title>{title}</title>
 <style>
@@ -25,6 +37,7 @@ preamble = """\
 
 postamble = """\
 </body>
+<footer><p>shamelessly stolen and hacked-up from <a href=https://github.com/mikepqr/resume.md>https://github.com/mikepqr/resume.md</a></p> </footer>
 </html>
 """
 
@@ -69,7 +82,7 @@ def make_html(page1: str , page2: str, prefix: str = "resume") -> str:
         css = ""
     return "".join(
         (
-            preamble.format(title='Douglas Chimento', css=css),
+            preamble.format(js=js, title='Douglas Chimento', css=css),
             '<div class=resume>',
             markdown.markdown(page1, extensions=["smarty"]),
             '</div>',
