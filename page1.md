@@ -12,8 +12,9 @@
 Automating AWS components to deploy applications via AWS API.
  
  - Developer and infrastructure engineer of a dynamic staging environment. ~7,000 daily automated application deployments. (GO, Python, [Mesos](https://mesosphere.github.io/marathon/), [Consul](http://consul.io))
- - From commit to docker: automate docker image creation across multiple languages, company wide. (Jenkins, Gitlab, Artifactory)
- - Converted ~200 applications to AWS auto scaling groups to optimize SPOT capacity
+ - From commit to docker: automate company-wide docker image creation using containerd SDK in GO
+ - Created framework to populate 
+ - Converted applications to AWS auto scaling groups to optimize SPOT capacity
 
 ### Infrastructure Software Engineer, Outbrain Inc.</span>  <span>Oct 2016 -- Dec 2019</span>
 
