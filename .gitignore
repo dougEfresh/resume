@@ -2,3 +2,5 @@
 terraform.tfstat*
 .terraform
 .terraform*
+resume.html
+resume.pdf

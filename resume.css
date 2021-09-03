@@ -131,9 +131,9 @@ h1 + ul + p {
 }
 
 footer {
-    display: none;
-    clear: both;
-    position: relative;
-    height: 200px;
-    margin-top: -200px;
+    font-size: small;
+    margin-top: 30px;
+    bottom:0;
+    width: 100%;
+    text-align:center;
 }
