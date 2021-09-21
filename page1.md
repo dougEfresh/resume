@@ -13,17 +13,17 @@ Automating AWS components to deploy applications via AWS API.
  
  - Developer and infrastructure engineer of a dynamic staging environment. ~7,000 daily automated application deployments. (GO, Python, [Mesos](https://mesosphere.github.io/marathon/), [Consul](http://consul.io))
  - From commit to docker: automate company-wide docker image creation using containerd SDK in GO
- - Created framework to populate 
- - Converted applications to AWS auto scaling groups to optimize SPOT capacity
+ - Converted applications to AWS auto scaling groups to optimize spot capacity
 
-### Infrastructure Software Engineer, Outbrain Inc.</span>  <span>Oct 2016 -- Dec 2019</span>
+### Infrastructure Software Engineer, Outbrain Inc.<span>Oct 2016 -- Dec 2019</span>
 
-Developer and maintainer of company wide frameworks: JAVA RPC [framework](https://github.com/outbrain/ob1k), metrics and tracing
+Developer and maintainer of company wide JAVA RPC [framework](https://github.com/outbrain/ob1k), metrics and tracing
 
- - Design and implement cross platform distributed tracing with OpenTracing/[Jaeger](https://www.jaegertracing.io/) handling thousands of requests per second
- - AWS infrastructure/backend engineer supporting and maintaining a Spring JAVA web framework
+ - Design and implement JAVA library for distributed tracing with OpenTracing/[Jaeger](https://www.jaegertracing.io/)
+ - AWS infrastructure/backend engineer
+ - Maintain Spring JAVA web system with [Cassandra](https://cassandra.apache.org/_/index.html) for tracking millions of clicks and impressions
 
-### Senior Software Engineer, Yodle (web.com)</span><span>Oct 2013 -- Oct 2016</span>
+### Senior Software Engineer, Yodle (web.com)<span>Oct 2013 -- Oct 2016</span>
 
 Develop and maintained real-time processing engine. 
 
@@ -53,12 +53,12 @@ Real-time reporting engineer for a high frequency trading platform.
  - Honeypot [OpenSSH](https://github.com/dougEfresh/sshd-passwd-pot) server 
  - [logzio-go](https://github.com/dougEfresh/logzio-go) library for [logz.io](http://logz.io)
  - Arch Linux AUR [packages](https://aur.archlinux.org/packages/?O=0&SeB=m&K=dougefish&outdated=&SB=n&SO=a&PP=50&do_Search=Go)
- - [Bitcoin](), Electrum, and LND node operator
+ - [Bitcoin]() & Electrum node operator
 
 ## Skills
 
  - AWS, GO, Python, JAVA, SQL, All Things Linux
- - [ESP8266](https://github.com/arendst/Tasmota) hackery (IoT firmware kinkering)
+ - [ESP8266](https://github.com/arendst/Tasmota) hackery (IoT firmware tinkering)
  - Moutainer biker, skier and sometimes guitar player
 
 

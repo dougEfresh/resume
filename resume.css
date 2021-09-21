@@ -25,7 +25,7 @@ body {
     -webkit-box-shadow: 2px 2px 4px #AAAAAA;
 }
 h1 {
-    text-transform: uppercase;
+/*    text-transform: uppercase; */
     text-align: center;
     font-size: 200%;
     margin: 0;
