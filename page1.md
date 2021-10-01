@@ -7,13 +7,13 @@
 
 ## Experience
 
-### Senior Plarform Software Engineer, AppsFlyer Inc.<span>Jan 2020 -- current</span>
+### Senior Platform Software Engineer, AppsFlyer Inc.<span>Jan 2020 -- current</span>
 
 Automating AWS components to deploy applications via AWS API.
  
  - Developer and infrastructure engineer of a dynamic staging environment. ~7,000 daily automated application deployments. (GO, Python, [Mesos](https://mesosphere.github.io/marathon/), [Consul](http://consul.io))
  - From commit to docker: automate company-wide docker image creation using containerd SDK in GO
- - Converted applications to AWS auto scaling groups to optimize spot capacity
+ - Converted instances to AWS auto scaling [groups](https://docs.aws.amazon.com/autoscaling/ec2/userguide/AutoScalingGroup.html) to optimize spot capacity
 
 ### Infrastructure Software Engineer, Outbrain Inc.<span>Oct 2016 -- Dec 2019</span>
 
@@ -21,6 +21,7 @@ Developer and maintainer of company wide JAVA RPC [framework](https://github.com
 
  - Design and implement JAVA library for distributed tracing with OpenTracing/[Jaeger](https://www.jaegertracing.io/)
  - AWS infrastructure/backend engineer
+ - Migrate application from AWS to self-hosted kubernetes cluster
  - Maintain Spring JAVA web system with [Cassandra](https://cassandra.apache.org/_/index.html) for tracking millions of clicks and impressions
 
 ### Senior Software Engineer, Yodle (web.com)<span>Oct 2013 -- Oct 2016</span>
@@ -50,6 +51,7 @@ Real-time reporting engineer for a high frequency trading platform.
 
 ## Projects
 
+ - Bitcoin Core [Contributor](https://github.com/bitcoin/bitcoin/pull/23072)
  - Honeypot [OpenSSH](https://github.com/dougEfresh/sshd-passwd-pot) server 
  - [logzio-go](https://github.com/dougEfresh/logzio-go) library for [logz.io](http://logz.io)
  - Arch Linux AUR [packages](https://aur.archlinux.org/packages/?O=0&SeB=m&K=dougefish&outdated=&SB=n&SO=a&PP=50&do_Search=Go)
