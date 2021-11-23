@@ -3,17 +3,20 @@
 - <dchimento@gmail.com>
 - [github.com/dougEfresh](http://github.com/dougEfresh)
 - Tel Aviv
-- [pdf](https://resume.dougchimento.com/resume.pdf) [html](https://resume.dougchimento.com/)
+- [pdf](https://resume.dougchimento.com/resume.pdf) [html](https://resume.dougchimento.com)
+
+## Summary
+Seeking work within crypto industry in sofware engineering, SRE and devops. A bitcoin-core contributor and creator of educational site [https://pro-bitcoin.io](https://pro-bitcoin.io) which runs [bitcoin-core](https://github.com/dougEfresh/pro-bitcoin) node that includes [prometheus](https://github.com/jupp0r/prometheus-cpp) metrics. 
 
 ## Experience
 
 ### Senior Platform Software Engineer, AppsFlyer Inc.<span>Jan 2020 -- current</span>
 
-Automating AWS components to deploy applications via AWS API.
+Automating AWS components for company-wide application deployments.
  
  - Developer and infrastructure engineer of a dynamic staging environment. ~7,000 daily automated application deployments. (GO, Python, [Mesos](https://mesosphere.github.io/marathon/), [Consul](http://consul.io))
  - From commit to docker: automate company-wide docker image creation using containerd SDK in GO
- - Converted instances to AWS auto scaling [groups](https://docs.aws.amazon.com/autoscaling/ec2/userguide/AutoScalingGroup.html) to optimize spot capacity
+ - Converted thousands instances to AWS auto scaling [groups](https://docs.aws.amazon.com/autoscaling/ec2/userguide/AutoScalingGroup.html) to optimize spot capacity
 
 ### Infrastructure Software Engineer, Outbrain Inc.<span>Oct 2016 -- Dec 2019</span>
 
@@ -55,7 +58,6 @@ Real-time reporting engineer for a high frequency trading platform.
  - Honeypot [OpenSSH](https://github.com/dougEfresh/sshd-passwd-pot) server 
  - [logzio-go](https://github.com/dougEfresh/logzio-go) library for [logz.io](http://logz.io)
  - Arch Linux AUR [packages](https://aur.archlinux.org/packages/?O=0&SeB=m&K=dougefish&outdated=&SB=n&SO=a&PP=50&do_Search=Go)
- - [Bitcoin]() & Electrum node operator
 
 ## Skills
 
