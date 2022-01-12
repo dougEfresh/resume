@@ -12,15 +12,16 @@ Seeking work within crypto industry in sofware engineering, SRE and devops. A bi
 
 ### Senior Platform Software Engineer, AppsFlyer Inc.<span>Jan 2020 -- current</span>
 
-Automating AWS components for company-wide application deployments.
+Automating AWS components via SDK for company-wide application deployments.
  
- - Developer and infrastructure engineer of a dynamic staging environment. ~7,000 daily automated application deployments. (GO, Python, [Mesos](https://mesosphere.github.io/marathon/), [Consul](http://consul.io))
+ - Developer and infrastructure engineer of a dynamic staging environment. ~7,000 daily automated application deployments used for automatic testing. (GO, Python, [Mesos](https://mesosphere.github.io/marathon/), [Consul](http://consul.io))
  - From commit to docker: automate company-wide docker image creation using containerd SDK in GO
+ - Support Gitlab CI/CD and Artifactory infrastructure
  - Converted thousands instances to AWS auto scaling [groups](https://docs.aws.amazon.com/autoscaling/ec2/userguide/AutoScalingGroup.html) to optimize spot capacity
 
 ### Infrastructure Software Engineer, Outbrain Inc.<span>Oct 2016 -- Dec 2019</span>
 
-Developer and maintainer of company wide JAVA RPC [framework](https://github.com/outbrain/ob1k), metrics and tracing
+Developer and maintainer of company wide JAVA RPC [framework](https://github.com/outbrain/ob1k), metrics and tracing.
 
  - Design and implement JAVA library for distributed tracing with OpenTracing/[Jaeger](https://www.jaegertracing.io/)
  - AWS infrastructure/backend engineer
