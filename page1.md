@@ -6,7 +6,7 @@
 - [pdf](https://resume.dougchimento.com/resume.pdf) [html](https://resume.dougchimento.com)
 
 ## Summary
-Seeking work within crypto industry in sofware engineering, SRE and devops. A bitcoin-core contributor and creator of educational site [https://pro-bitcoin.io](https://pro-bitcoin.io) which runs [bitcoin-core](https://github.com/dougEfresh/pro-bitcoin) node that includes [prometheus](https://github.com/jupp0r/prometheus-cpp) metrics. 
+Seeking work within crypto industry in sofware engineering, SRE and devops. A bitcoin-core contributor and creator of educational site [https://pro-bitcoin.io](https://pro-bitcoin.io) which runs [bitcoin-core](https://github.com/pro-bitcoin/pro-bitcoin) node that includes [prometheus](https://github.com/jupp0r/prometheus-cpp) metrics. 
 
 ## Experience
 
@@ -14,10 +14,10 @@ Seeking work within crypto industry in sofware engineering, SRE and devops. A bi
 
 Automating AWS components via SDK for company-wide application deployments.
  
- - Developer and infrastructure engineer of a dynamic staging environment. ~7,000 daily automated application deployments used for automatic testing. (GO, Python, [Mesos](https://mesosphere.github.io/marathon/), [Consul](http://consul.io))
+ - Developer and infrastructure engineer of a staging environment. ~7,000 daily automated application deployments used for automatic testing. (GO, Python, [Mesos](https://mesosphere.github.io/marathon/), [Consul](http://consul.io))
  - From commit to docker: automate company-wide docker image creation using containerd SDK in GO
+ - Create custom [terraform](https://www.terraform.io/) providers/modules to facility creating resources in AWS
  - Support Gitlab CI/CD and Artifactory infrastructure
- - Converted thousands instances to AWS auto scaling [groups](https://docs.aws.amazon.com/autoscaling/ec2/userguide/AutoScalingGroup.html) to optimize spot capacity
 
 ### Infrastructure Software Engineer, Outbrain Inc.<span>Oct 2016 -- Dec 2019</span>
 
