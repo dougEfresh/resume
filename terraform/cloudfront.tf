@@ -19,8 +19,9 @@ resource "aws_cloudfront_distribution" "domain_distribution" {
     origin_id   = "resume.dougchimento.com"
   }
 
+  price_class         = "PriceClass_100"
   enabled             = true
-    is_ipv6_enabled     = true
+  is_ipv6_enabled     = true
   default_root_object = "index.html"
 
   default_cache_behavior {
@@ -52,7 +53,7 @@ resource "aws_cloudfront_distribution" "domain_distribution" {
 
   // Certification goes here
   viewer_certificate {
-    acm_certificate_arn = "arn:aws:acm:us-east-1:841424144106:certificate/b7ade8c0-7cd3-4c9d-8b61-5f3db9f0c54c"
+    acm_certificate_arn = "arn:aws:acm:us-east-1:841424144106:certificate/f604d00d-9447-4b92-b5cc-37dc855ed891"
     ssl_support_method  = "sni-only"
   }
 }

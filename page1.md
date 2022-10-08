@@ -6,7 +6,7 @@
 - [pdf](https://resume.dougchimento.com/resume.pdf) [html](https://resume.dougchimento.com)
 
 ## Summary
-Seeking work within crypto industry in sofware engineering, SRE and devops. A bitcoin-core contributor and creator of educational site [https://pro-bitcoin.io](https://pro-bitcoin.io) which runs [bitcoin-core](https://github.com/pro-bitcoin/pro-bitcoin) node that includes [prometheus](https://github.com/jupp0r/prometheus-cpp) metrics. 
+Seeking work within crypto industry in software engineering, SRE and devops. A bitcoin-core contributor and creator of educational site [https://pro-bitcoin.io](https://pro-bitcoin.io) which runs [bitcoin-core](https://github.com/pro-bitcoin/pro-bitcoin) node that includes [prometheus](https://github.com/jupp0r/prometheus-cpp) metrics.
 
 ## Experience
 
@@ -14,7 +14,7 @@ Seeking work within crypto industry in sofware engineering, SRE and devops. A bi
 
 Automating AWS components via SDK for company-wide application deployments.
  
- - Developer and infrastructure engineer of a staging environment. ~7,000 daily automated application deployments used for automatic testing. (GO, Python, [Mesos](https://mesosphere.github.io/marathon/), [Consul](http://consul.io))
+ - Developer and infrastructure engineer of a staging environment. Hundreds daily automated application deployments used for automated testing. (GO, Python, [Mesos](https://mesosphere.github.io/marathon/), [Consul](http://consul.io))
  - From commit to docker: automate company-wide docker image creation using containerd SDK in GO
  - Create custom [terraform](https://www.terraform.io/) providers/modules to facility creating resources in AWS
  - Support Gitlab CI/CD and Artifactory infrastructure
@@ -55,20 +55,16 @@ Real-time reporting engineer for a high frequency trading platform.
 
 ## Projects
 
- - Bitcoin Core [Contributor](https://github.com/bitcoin/bitcoin/pull/23072)
+ - Bitcoin Core [Contributor](https://github.com/bitcoin/bitcoin/pull/23249)
  - Honeypot [OpenSSH](https://github.com/dougEfresh/sshd-passwd-pot) server 
  - [logzio-go](https://github.com/dougEfresh/logzio-go) library for [logz.io](http://logz.io)
  - Arch Linux AUR [packages](https://aur.archlinux.org/packages/?O=0&SeB=m&K=dougefish&outdated=&SB=n&SO=a&PP=50&do_Search=Go)
 
 ## Skills
 
- - AWS, GO, Python, JAVA, SQL, All Things Linux
+ - AWS, Infrastructure as code, GO, Python, JAVA, CPP, SQL, All Things Linux
  - [ESP8266](https://github.com/arendst/Tasmota) hackery (IoT firmware tinkering)
- - Moutainer biker, skier and sometimes guitar player
-
 
 ## Education
 
 ### <span>St. Lawrence University, B.S. Mathematics</span> <span>1996 -- 2000</span>
-
----
