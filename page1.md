@@ -6,22 +6,22 @@
 - [pdf](https://resume.dougchimento.com/resume.pdf) [html](https://resume.dougchimento.com)
 
 ## Summary
-Seeking work within crypto industry in software engineering, SRE and devops. A bitcoin-core contributor and creator of educational site [https://pro-bitcoin.io](https://pro-bitcoin.io) which runs [bitcoin-core](https://github.com/pro-bitcoin/pro-bitcoin) node that includes [prometheus](https://github.com/jupp0r/prometheus-cpp) metrics.
+Seeking work within the crypto industry in software engineering, SRE, and DevOps. A bitcoin-core contributor and creator of educational site [https://pro-bitcoin.io](https://pro-bitcoin.io) which runs [bitcoin-core](https://github.com/pro-bitcoin/pro-bitcoin) node that includes [prometheus](https://github.com/jupp0r/prometheus-cpp) metrics.
 
 ## Experience
 
 ### Senior Platform Software Engineer, AppsFlyer Inc.<span>Jan 2020 -- current</span>
 
-Automating AWS components via SDK for company-wide application deployments.
+Automate AWS components via SDK for company-wide application deployments.
  
- - Developer and infrastructure engineer of a staging environment. Hundreds daily automated application deployments used for automated testing. (GO, Python, [Mesos](https://mesosphere.github.io/marathon/), [Consul](http://consul.io))
- - From commit to docker: automate company-wide docker image creation using containerd SDK in GO
- - Create custom [terraform](https://www.terraform.io/) providers/modules to facility creating resources in AWS
- - Support Gitlab CI/CD and Artifactory infrastructure
+ - Developer and infrastructure engineer of a staging environment. Hundreds of daily automated application deployments are used for automated testing. (GO, Python, [Mesos](https://mesosphere.github.io/marathon/), [Consul](http://consul.io))
+ - From commit to docker: automate company-wide docker image creation using [containerd](https://containerd.io/) SDK in GO
+ - Develop custom [terraform](https://www.terraform.io/) providers/modules to facilitate resource management
+ - Develop [CoreDNS](https://coredns.io/) plugin for dynamic DNS lookups
 
 ### Infrastructure Software Engineer, Outbrain Inc.<span>Oct 2016 -- Dec 2019</span>
 
-Developer and maintainer of company wide JAVA RPC [framework](https://github.com/outbrain/ob1k), metrics and tracing.
+Developer and maintainer of company-wide JAVA RPC [framework](https://github.com/outbrain/ob1k), metrics, and tracing.
 
  - Design and implement JAVA library for distributed tracing with OpenTracing/[Jaeger](https://www.jaegertracing.io/)
  - AWS infrastructure/backend engineer
@@ -30,11 +30,11 @@ Developer and maintainer of company wide JAVA RPC [framework](https://github.com
 
 ### Senior Software Engineer, Yodle (web.com)<span>Oct 2013 -- Oct 2016</span>
 
-Develop and maintained real-time processing engine. 
+Developed and maintained a real-time processing engine. 
 
  - Migrated ETL from SQL to Java/Spring framework
  - Reduced load on database by moving slow SQL queries to AWS's Elastic MapReduce framework
- - Wrote custom gradle plugin to show code coverage for testing
+ - Wrote a custom Gradle plugin to show code coverage for testing
  
 ### Senior Software Engineer, TryPlay Inc <span>Jan 2013 -- Oct 2013</span>
 
