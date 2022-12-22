@@ -2,22 +2,22 @@
 
 - <dchimento@gmail.com>
 - [github.com/dougEfresh](http://github.com/dougEfresh)
-- Tel Aviv
 - [pdf](https://resume.dougchimento.com/resume.pdf) [html](https://resume.dougchimento.com)
 
 ## Summary
-Seeking work within the crypto industry in software engineering, SRE, and DevOps. A bitcoin-core contributor and creator of educational site [https://pro-bitcoin.io](https://pro-bitcoin.io) which runs [bitcoin-core](https://github.com/pro-bitcoin/pro-bitcoin) node that includes [prometheus](https://github.com/jupp0r/prometheus-cpp) metrics.
+Open Source contributor and Bitcoin Core contributitor. Seeking work within crypto industry as a Software Engineer/SRE. Automate all the things.
 
 ## Experience
 
-### Senior Platform Software Engineer, AppsFlyer Inc.<span>Jan 2020 -- current</span>
+### Senior Platform Software Engineer, AppsFlyer Inc.<span>Jan 2020 -- Oct 2022</span>
 
-Automate AWS components via SDK for company-wide application deployments.
+Automate AWS infrastructure via SDK for company-wide deployments.
  
- - Developer and infrastructure engineer of a staging environment. Hundreds of daily automated application deployments are used for automated testing. (GO, Python, [Mesos](https://mesosphere.github.io/marathon/), [Consul](http://consul.io))
+ - Developer and infrastructure engineer for a staging/regression test environment. Hundreds of daily automated application deployments are used for automated testing. (GO, Python, [Mesos](https://mesosphere.github.io/marathon/), [Consul](http://consul.io))
  - From commit to docker: automate company-wide docker image creation using [containerd](https://containerd.io/) SDK in GO
  - Develop custom [terraform](https://www.terraform.io/) providers/modules to facilitate resource management
  - Develop [CoreDNS](https://coredns.io/) plugin for dynamic DNS lookups
+ - Create custom React applications for a service catalog framework: [backstage](https://backstage.io)
 
 ### Infrastructure Software Engineer, Outbrain Inc.<span>Oct 2016 -- Dec 2019</span>
 
@@ -52,11 +52,10 @@ Real-time reporting engineer for a high frequency trading platform.
  - Custom C++ application to parse binary data with regex support
  - Developed Java API to store and access ~500,000 files across multiple machines
 
-
 ## Projects
 
  - Bitcoin Core [Contributor](https://github.com/bitcoin/bitcoin/pull/23249)
- - Honeypot [OpenSSH](https://github.com/dougEfresh/sshd-passwd-pot) server 
+ - Creator of educational site [https://pro-bitcoin.io](https://pro-bitcoin.io)
  - [logzio-go](https://github.com/dougEfresh/logzio-go) library for [logz.io](http://logz.io)
  - Arch Linux AUR [packages](https://aur.archlinux.org/packages/?O=0&SeB=m&K=dougefish&outdated=&SB=n&SO=a&PP=50&do_Search=Go)
 
